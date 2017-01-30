@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42482E072DBEAC64130C0C48 /* Pods_aquiTemLibras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482A7FD5324FCCF10D9C599 /* Pods_aquiTemLibras.framework */; };
+		AC90CF341E2F00E400CC257F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90CF331E2F00E400CC257F /* AppDelegate.swift */; };
+		AC90CF361E2F00E400CC257F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90CF351E2F00E400CC257F /* ViewController.swift */; };
+		AC90CF391E2F00E400CC257F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC90CF371E2F00E400CC257F /* Main.storyboard */; };
+		AC90CF3B1E2F00E400CC257F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC90CF3A1E2F00E400CC257F /* Assets.xcassets */; };
+		AC90CF3E1E2F00E400CC257F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC90CF3C1E2F00E400CC257F /* LaunchScreen.storyboard */; };
+		AC90CF461E2F04EC00CC257F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC90CF451E2F04EC00CC257F /* GoogleService-Info.plist */; };
+		ACAB7E881E3F91AD00A9B572 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB7E871E3F91AD00A9B572 /* LoginViewController.swift */; };
+		ACAB7E8A1E3F92BF00A9B572 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB7E891E3F92BF00A9B572 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CBF49A2A2054A214604EC78 /* Pods-aquiTemLibras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aquiTemLibras.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aquiTemLibras/Pods-aquiTemLibras.debug.xcconfig"; sourceTree = "<group>"; };
+		8482A7FD5324FCCF10D9C599 /* Pods_aquiTemLibras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aquiTemLibras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90CF301E2F00E400CC257F /* aquiTemLibras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aquiTemLibras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90CF331E2F00E400CC257F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC90CF351E2F00E400CC257F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC90CF381E2F00E400CC257F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC90CF3A1E2F00E400CC257F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC90CF3D1E2F00E400CC257F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC90CF3F1E2F00E400CC257F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC90CF451E2F04EC00CC257F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACAB7E871E3F91AD00A9B572 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACAB7E891E3F92BF00A9B572 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF3B5D445CF645D9B6D9469C /* Pods-aquiTemLibras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aquiTemLibras.release.xcconfig"; path = "Pods/Target Support Files/Pods-aquiTemLibras/Pods-aquiTemLibras.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC90CF2D1E2F00E400CC257F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42482E072DBEAC64130C0C48 /* Pods_aquiTemLibras.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101707D1C80E7700763B9DC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF49A2A2054A214604EC78 /* Pods-aquiTemLibras.debug.xcconfig */,
+				EF3B5D445CF645D9B6D9469C /* Pods-aquiTemLibras.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F08A389E9315847C7F9AA42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8482A7FD5324FCCF10D9C599 /* Pods_aquiTemLibras.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC90CF271E2F00E400CC257F = {
+			isa = PBXGroup;
+			children = (
+				AC90CF321E2F00E400CC257F /* aquiTemLibras */,
+				AC90CF311E2F00E400CC257F /* Products */,
+				101707D1C80E7700763B9DC8 /* Pods */,
+				9F08A389E9315847C7F9AA42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC90CF311E2F00E400CC257F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC90CF301E2F00E400CC257F /* aquiTemLibras.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC90CF321E2F00E400CC257F /* aquiTemLibras */ = {
+			isa = PBXGroup;
+			children = (
+				AC90CF451E2F04EC00CC257F /* GoogleService-Info.plist */,
+				AC90CF331E2F00E400CC257F /* AppDelegate.swift */,
+				AC90CF351E2F00E400CC257F /* ViewController.swift */,
+				AC90CF371E2F00E400CC257F /* Main.storyboard */,
+				AC90CF3A1E2F00E400CC257F /* Assets.xcassets */,
+				AC90CF3C1E2F00E400CC257F /* LaunchScreen.storyboard */,
+				AC90CF3F1E2F00E400CC257F /* Info.plist */,
+				ACAB7E871E3F91AD00A9B572 /* LoginViewController.swift */,
+				ACAB7E891E3F92BF00A9B572 /* SignUpViewController.swift */,
+			);
+			path = aquiTemLibras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC90CF2F1E2F00E400CC257F /* aquiTemLibras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90CF421E2F00E400CC257F /* Build configuration list for PBXNativeTarget "aquiTemLibras" */;
+			buildPhases = (
+				B35B742213C23F8CC09CC11E /* [CP] Check Pods Manifest.lock */,
+				AC90CF2C1E2F00E400CC257F /* Sources */,
+				AC90CF2D1E2F00E400CC257F /* Frameworks */,
+				AC90CF2E1E2F00E400CC257F /* Resources */,
+				A4FF70E12AA15343F797FB84 /* [CP] Embed Pods Frameworks */,
+				058AFEA44A2AD2A90456C0F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aquiTemLibras;
+			productName = aquiTemLibras;
+			productReference = AC90CF301E2F00E400CC257F /* aquiTemLibras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC90CF281E2F00E400CC257F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Alexandre;
+				TargetAttributes = {
+					AC90CF2F1E2F00E400CC257F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC90CF2B1E2F00E400CC257F /* Build configuration list for PBXProject "aquiTemLibras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC90CF271E2F00E400CC257F;
+			productRefGroup = AC90CF311E2F00E400CC257F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC90CF2F1E2F00E400CC257F /* aquiTemLibras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC90CF2E1E2F00E400CC257F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90CF3E1E2F00E400CC257F /* LaunchScreen.storyboard in Resources */,
+				AC90CF461E2F04EC00CC257F /* GoogleService-Info.plist in Resources */,
+				AC90CF3B1E2F00E400CC257F /* Assets.xcassets in Resources */,
+				AC90CF391E2F00E400CC257F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058AFEA44A2AD2A90456C0F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aquiTemLibras/Pods-aquiTemLibras-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FF70E12AA15343F797FB84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aquiTemLibras/Pods-aquiTemLibras-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35B742213C23F8CC09CC11E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC90CF2C1E2F00E400CC257F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAB7E881E3F91AD00A9B572 /* LoginViewController.swift in Sources */,
+				AC90CF361E2F00E400CC257F /* ViewController.swift in Sources */,
+				ACAB7E8A1E3F92BF00A9B572 /* SignUpViewController.swift in Sources */,
+				AC90CF341E2F00E400CC257F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC90CF371E2F00E400CC257F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC90CF381E2F00E400CC257F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC90CF3C1E2F00E400CC257F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC90CF3D1E2F00E400CC257F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC90CF401E2F00E400CC257F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC90CF411E2F00E400CC257F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC90CF431E2F00E400CC257F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBF49A2A2054A214604EC78 /* Pods-aquiTemLibras.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aquiTemLibras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.aquiTemLibras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC90CF441E2F00E400CC257F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3B5D445CF645D9B6D9469C /* Pods-aquiTemLibras.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aquiTemLibras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.aquiTemLibras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC90CF2B1E2F00E400CC257F /* Build configuration list for PBXProject "aquiTemLibras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90CF401E2F00E400CC257F /* Debug */,
+				AC90CF411E2F00E400CC257F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC90CF421E2F00E400CC257F /* Build configuration list for PBXNativeTarget "aquiTemLibras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90CF431E2F00E400CC257F /* Debug */,
+				AC90CF441E2F00E400CC257F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC90CF281E2F00E400CC257F /* Project object */;
+}
